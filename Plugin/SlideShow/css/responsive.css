@@ -1,0 +1,68 @@
+@media only screen and (min-width: 48em) { /* 768px */
+  body {
+    max-width: 60em; /* 960px */
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+
+  .masthead {
+    font-size: 120%;
+  }
+
+  .views {
+    background-color: #eee;
+    border: 0;
+  }
+
+  .view {
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 0.5em;
+  }
+
+  .views-nav {
+    float: left;
+    width: 25%;
+  }
+
+  .views-nav a {
+    background-image: none;
+  }
+
+  .demo-active .views-nav a.is-active {
+    background-image: url(../img/arrow-right.svg);
+    color: #999;
+  }
+
+  .views-main .view {
+    border-radius: 0;
+    border-top-width: 0;
+    margin-left: 27%;
+  }
+
+  .demo-active .views-main .view {
+    display: none;
+  }
+
+  .views-main .view:first-child,
+  .demo-active .views-main .view {
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    border-top-width: 2px;
+  }
+
+  .views-main .view:last-child,
+  .demo-active .views-main .view {
+    border-bottom-left-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+  }
+
+  .demo-active .views-main .view.is-active {
+    display: block;
+  }
+
+  .view-nav-contents {
+    display: none;
+  }
+
+}

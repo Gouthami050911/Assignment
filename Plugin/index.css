@@ -1,0 +1,90 @@
+.views {
+    background-color: #fff;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 2px 0;
+    display: block;
+    }
+    .views-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    .views-nav li {
+    border-bottom: 2px solid #ccc;
+    margin: 0;
+    }
+    .views-nav li:last-child {
+    border-bottom-width: 0;
+    }
+    .views-nav a {
+    background: 'arrow-right.svg';
+    display: block;
+    font-size: 1.125em;
+    line-height: 1.24444444444445em;
+    padding: 0.88888888888889em;
+    }
+    .views-main .view {
+    border-top: 2px solid #ccc;
+    }
+    /* When SimpleSlideView is active we won't need a border anymore */
+    .views-main .SimpleSlideView-view {
+    border-top-width: 0;
+    }
+    .view-content {
+    padding: 1em;
+    }
+    .view-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    .view-nav a {
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: -0.25em;
+    padding: 0.75em 1em;
+    white-space: nowrap;
+    }
+    .view-nav-contents a {
+    background-image: url("hamburger.svg");
+    background-position: left center;
+    padding-left: 1.8em;
+    }
+    .view-nav-next a {
+    background-image: url("arrow-right.svg");
+    background-position: right center;
+    padding-right: 1.8em;
+    }
+    .btn {
+    background-color: #0088cc;
+    border-radius: 0.25em;
+    color: #fff;
+    text-align: center;
+    }
+    .byline {
+    color: #999;
+    }
+    .pull-left {
+    float: left;
+    }
+    .pull-right {
+    float: right;
+    }
+    .clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+    }
+    .clearfix:after {
+    clear: both;
+    }
+     @media only screen and (min-width: 30.0625em) { /* 481px */
+    body {
+    margin: 1.5em auto;
+    max-width: 30.0625em;
+    }
+    .views {
+    border-radius: 0.5em;
+    border-width: 2px;
+    }
+    }
